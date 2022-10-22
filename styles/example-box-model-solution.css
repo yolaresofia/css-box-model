@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Roboto&display=swap');
 ​
 html,
 body,
@@ -191,66 +184,3 @@ footer {
     margin: 50px;
     padding: 50px;
 }
-    </style>
-    <title>Document</title>
-  </head>
-  ​
-  <body>
-    <nav>
-      <div class="header">L.O.L <br /><span>Learning olways Love</span></div>
-      <div>
-        <p class="alignedRight">
-          Current Date and Time is <span id="date-time"></span>
-        </p>
-      </div>
-    </nav>
-    <main class="hoverElements">
-      <span>1</span>
-      <span>Manifesto</span>
-      <span>2</span>
-      <span>Buy</span>
-      <span>avocado</span>
-      <span>3</span>
-      <span>Flowers</span>
-      <span>and</span>
-      <span>rainbows</span>
-      <span>4</span>
-      <span>Mushrooms</span>
-      <span>in</span>
-      <span>coffee</span>
-      <span>5</span>
-      <span>Read</span>
-      <span>2</span>
-      <span>lines</span>
-      <span>6</span>
-      <span>One</span>
-      <span>hoodie</span>
-      <span>and</span>
-      <span>one</span>
-      <span>hoodie</span>
-      <span>only</span>
-      <span>7</span>
-      <span>WTF</span>
-      <span>is</span>
-      <span>this</span>
-      <span>?</span>
-      <span>8</span>
-      <span>Black</span>
-      <span>leather</span>
-      <span>9</span>
-      <span>Spider</span>
-      <span>web</span>
-      <span>10</span>
-    </main>
-    <footer>
-      <div class="header">facebook<br /><span>Learning olways Love</span></div>
-      <div>
-        <p class="alignedRight">instagram</p>
-      </div>
-    </footer>
-    <script>
-      var dt = new Date().toLocaleString();
-      document.getElementById("date-time").innerHTML = dt;
-    </script>
-  </body>
-</html>
