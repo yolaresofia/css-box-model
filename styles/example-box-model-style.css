@@ -132,8 +132,8 @@ nav {
 }
 
 main {
-    font-size: 128px;
-    line-height: 128px;
+    font-size: 96px;
+    line-height: 96px;
     margin-bottom: 150px;
     padding: 24px;
 }
@@ -187,7 +187,6 @@ footer {
 }
 
 
-
 .number:hover {
     color: white;
     background-color: black;
@@ -195,20 +194,23 @@ footer {
 
 
 .color1:hover {
+    color:#4D2D52;
     background-color: #E7F9A9;
 }
 
 .color2:hover {
+    color: #E7F9A9;
     background-color: #4D2D52;
 }
 
 .color3:hover {
-    background-color: #8C4843;
+    background-color: red;
 }
 
 
 .shape1:hover {
     border-radius: 20px;
+    border: 10px solid white;
 }
 
 .shape2:hover {
@@ -225,13 +227,16 @@ footer {
 
 
 .font1:hover {
+    font-size: 80px;
     font-family: 'Comforter Brush', cursive;
 }
 
 .font2:hover {
+    font-size: 80px;
     font-family: 'Press Start 2P', cursive;
 }
 
 .font3:hover {
+    text-transform: uppercase;
     font-family: 'Space Mono', monospace;
 }
